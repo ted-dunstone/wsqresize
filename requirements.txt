@@ -1,0 +1,5 @@
+streamlit
+wsq
+numpy
+PIL
+
