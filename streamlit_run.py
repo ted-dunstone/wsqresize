@@ -48,4 +48,5 @@ with st.expander("Raw Binary Data"):
     c1.write([numpy.base_repr(v, base=16) for v in raw[:abs(offset_val)]])
     c2.write("End of File")
     c2.write([numpy.base_repr(v, base=16) for v in raw[-abs(offset_val):]])
-    
+  
+st.write(st.experimental_get_query_params())
